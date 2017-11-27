@@ -17,9 +17,13 @@ Após a consulta o app deve fazer uma consulta a base de dados local e desenhar 
 # Task 2 - Calendario
 
 Nesta fase, o app deve ser capaz de fazer uma consulta ao serviço REST passando uma data como parametro e mostrando o trajeto conforme a data informada.
+
 Ex.
+
 GET /posicoes?data=2017-01-01 (Imprime apenas as posições obtidas do dia 01/01/2017).
+
 GET /posicoes?data=2017-01-02 (Imprime apenas as posições obtidas do dia 02/01/2017).
+
 E assim por diante.
 
 Todos os resultados devem ser salvos em banco de dados local.
