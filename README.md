@@ -9,8 +9,7 @@ O desafio consiste em criar um app com as seguintes características:
 
 # Task 1 - Desenhar um trajeto no mapa
 
-Implementar um app cuja tela principal apresenta um mapa (google maps) e um trajeto obtido de uma api REST.
-Aconselhamos que use o [Apiary](https://apiary.io) como API nessa etapa.
+Implementar um app cuja tela principal apresenta um mapa (google maps) e um trajeto obtido de uma api REST. Você deve implementar um endpoint REST e disponibiliza-lo remotamente para que seja consumido pelo app.
 O app deve consultar a api REST e salvar o resultado (exemplo em '/assets/posicoes.json') em banco de dados local.
 Após a consulta o app deve fazer uma consulta a base de dados local e desenhar o trajeto obtido da base local.
 
